@@ -327,6 +327,15 @@ def get_fit(num):
 #---
 #Begin Parallelization
 #---
+t = []
+NUM_THREADS = 10
+step = 0.1
+times = np.arange(NUM_THREADS, step)
+for thread in t:
+     your main code
+     
+     thread.join()
+graph your resulting data
 master_chis = []
 for v in range(len(flux_corr)):
     chi_vals = get_fit(v)
